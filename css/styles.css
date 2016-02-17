@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/**:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px !important;
+}*/
+
+body {
+  margin: 0 auto;
+}
+
+.container {
+  width: 98%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#logo img {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+}
+
+#top-content {
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+}
+
+#navbar a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
+#gallery {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#gallery img {
+  height: auto;
+  width: 100%;
+  margin-left: none;
+  margin-bottom: 1%;
+}
+
+.thumbnail {
+  float:left;
+}
+
+#column-right {
+  height: auto;
+  width: 100%;
+}
+
+#column-right h3 {
+  margin-top: 0;
+}
+
+.thumbnail img {
+  width: 70px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 750px) {
+
+  body {
+    background-color: #666;
+    color: #fff;
+  }
+
+  #navbar {
+    float: right;
+    display: inline;
+  }
+
+  #header {
+    margin-top: 10px;
+    height: 15%;
+    overflow: hidden;
+  }
+
+  #header p {
+    float: left;
+    margin-top: 0;
+  }
+
+  #content {
+    float: left;
+    width: 50%;
+    margin-left: 2%;
+  }
+
+  #logo {
+    float: right;
+    width: 45%;
+  }
+
+  #top-content {
+    height: auto;
+    overflow: hidden;
+    margin: 3% 0;
+}
+
+  #gallery img {
+    float: right;
+    width: 31%;
+    margin: 1%;
+  }
+
+  #gallery {
+    padding-right: 10px;
+
+  }
+
+  #column-left {
+    float: left;
+    width: 44%;
+
+  }
+
+  #column-right {
+    width: 44%;
+    float: right;
+
+  }
+
+  .container2 {
+    height: 600px;
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  #column-left h3 {
+    margin: 0;
+  }
+
+  #column-right p {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #gallery {
+    float: left;
+    width: 33%;
+  }
+
+  #gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .container2 {
+    float: right;
+    width: 63%;
+    height: auto;
+  }
+
+  #main-container {
+    height: 1000px;
+    width: auto;
+    overflow: hidden;
+  }
+}
